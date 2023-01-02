@@ -4,7 +4,7 @@ Un mélange de katas et de hackathon :)
 ## Présentation, objectif général
 Vous devez réaliser, en binôme, une application de gestion et de mise en avant de stickers. Les fonctionnalités attendues sont décrites sous forme d'issues GitHub et associées à un board non trié, le tout disponible dans ce repository.
 
-Cette application doit être implémenté avec la stack suivante : Vue 3 (options API), Bootstrap 5.2, Spring boot 2.7.7 (Java 11, Maven), PostgreSQL.
+Cette application doit être implémentée avec la stack suivante : Vue 3 (options API), Bootstrap 5.2, Spring boot 2.7.7 (Java 11, Maven), PostgreSQL.
 
 Il n'est pas interdit de travailler en dehors des heures de formation.
 
@@ -40,16 +40,16 @@ Bien s'organiser quand des corrections sont demandées. Discuter dans l'équipe,
 2. Prendre connaissance des issues, les reproduire dans un board du repository, mais uniquement avec le titre pour gagner du temps (description pas indispensable). Échanger et proposer un ordre dans lequel l'équipe souhaite implémenter les fonctionnalités, cet ordre doit apparaître dans le board
 3. Identifier les tâches de la 1ère fonctionnalité. Ajouter des issues dans le même board (ou un autre) afin de pouvoir les assigner dans l'équipe
 4. Faire valider les 3 premières étapes par le formateur avant d'aller plus loin. L'objectif principal est de partir avec une liste de taches bien identifées et bien réparties (ça ne compte pas comme joker...). Une fois la manière de travailler validée, à vous de jouer pour l'organisation de l'ensemble du katathon
-5. Procéder au wireframing de chaque écran (sauf pour la fonctionnalité "delete sticker"), versions desktop et mobile, avant de commencer toute implémentation. Ces wireframes doivent être validés par le formateur. Chaque membre de l'équipe doit participer, il y a 5 fonctionnalités à wireframer, le partage peut être de 2 vs 3 chacun. Le binôme discute pour un rendu cohérent mais chacun doit produire des wireframes. Libre choix du ou des outils. L'important est de pouvoir se projeter en tant que futur utilisateur. Communiquer les wireframes au formateur (peut importe comment) pour vérifier que les écrans correspondent bien après implémentation et valider les points bonus ! Cependant il est possible de proposer de nouvelles versions de wireframes...
+5. Procéder au wireframing de chaque écran (sauf pour la fonctionnalité "delete sticker"), versions desktop et mobile, avant de commencer toute implémentation. Ces wireframes doivent être validés par le formateur. Chaque membre de l'équipe doit participer, il y a 5 fonctionnalités à wireframer, le partage peut être de 2 vs 3 chacun. Le binôme discute pour un rendu cohérent mais chacun doit produire des wireframes. Libre choix du ou des outils. L'important est de pouvoir se projeter en tant que futur utilisateur. Communiquer les wireframes au formateur (peut importe comment) pour vérifier que les écrans correspondent bien après implémentation et valider les points bonus ! Cependant il est possible de proposer de nouvelles versions de wireframes... Pas de charte graphique imposée, pas de maquette statique attendue, uniquement les wireframes
 6. C'est parti mon kiki !
 
 ## Tips et contraintes
 La contrainte la plus forte est de s'organiser pour que chacun fasse un peu de tout (contexte de formation). Vous pouvez, grosso modo, avoir trois organisations :
-1. Spécialisée : chaque fonctionnalité est découpée en deux, la partie front et la partie back (API + DB), chaque membre s'occupe d'une des parties puis vous faites des rotations de fonctionnalité en fonctionnalité
-2. Fullstack : chaque membre prend en charge une fonctionnalité et implémente le front et le back. Plus difficile au démarrage car il faut initialiser les projets et on risque plus de se marcher un peu sur les pieds et d'avoir des conflits
-3. Mixte : spécialisée puis fullstack
+1. **Spécialisée** : chaque fonctionnalité est découpée en deux, la partie front et la partie back (API + DB), chaque membre s'occupe d'une des parties puis vous faites des rotations de fonctionnalité en fonctionnalité
+2. **Fullstack** : chaque membre prend en charge une fonctionnalité et implémente le front et le back. Plus difficile au démarrage car il faut initialiser les projets et on risque plus de se marcher un peu sur les pieds et d'avoir des conflits
+3. **Mixte** : spécialisée puis fullstack
 
-Le pair programming mais avec rotation est une autre approche.
+Le **pair programming** mais avec rotation est une autre approche.
 
 Penser à partager le code régulièrement sur GitHub.
 
@@ -59,5 +59,5 @@ Bien s'entendre sur les différentes conventions (formatage, nommage...)
 1. Mono repository
 2. Trois projets, un pour chaque couche, chacun sont .gitignore adapté
 3. Les scripts DDL et DML doivent pouvoir être rejoués
-4. Le script DDL définit toute le schéma, un seul script donc
+4. Le script DDL définit tout le schéma, un seul script donc
 5. Le script DML doit insérer au moins 10 stickers, dans les règles de l'art...
