@@ -61,4 +61,4 @@ Bien s'entendre sur les différentes conventions (formatage, nommage...)
 3. Les scripts DDL et DML doivent pouvoir être rejoués
 4. Le script DDL définit tout le schéma, un seul script donc
 5. Le script DML doit insérer au moins 10 stickers, dans les règles de l'art...
-6. Pas de code mort (qui ne sert à rien), ni de code commenté
+6. Pas de code mort, ni de code commenté
