@@ -57,7 +57,8 @@ Bien s'entendre sur les différentes conventions (formatage, nommage...)
 
 ### Contraintes techniques
 1. Mono repository
-2. Trois projets, un pour chaque couche, chacun sont .gitignore adapté
+2. Trois projets, un pour chaque couche, chacun son .gitignore adapté
 3. Les scripts DDL et DML doivent pouvoir être rejoués
 4. Le script DDL définit tout le schéma, un seul script donc
 5. Le script DML doit insérer au moins 10 stickers, dans les règles de l'art...
+6. Pas de code mort (qui ne sert à rien), ni de code commenté
