@@ -21,7 +21,7 @@ Le katathon sera ponctué de 2 Kahoot! à l'issu desquels les équipes remporter
 Super bonus de 10 points si tout est entièrement implémenté, incluant les bonus.
 
 ### Jokers
-Chaque binôme a le droit à 2 jokers par demi-journée, non cumulables. Chaque joker utilisé fait perdre 2 points.
+Chaque binôme a le droit à 2 jokers par demi-journée, non cumulables, techniques ou fonctionnels. Chaque joker utilisé fait perdre 2 points.
 
 ### Classement et prix
 Les 2 membres de l'équipe totalisant le plus grand nombre de points remportent chacun un exemplaire de "Chief Bullshit Officer" de Fix.
@@ -31,9 +31,9 @@ Tous les membres des équipes 2 et 3 sur le podium (au nombre de points) remport
 Un classement intermédiaire sera publié en chaque fin de journée.
 
 ### Perturbations
-Le formateur va procéder régulièrement à des revues de code et faire des retours, avec plus ou moins de précisions, qu'il faudra obligatoirement traiter. Autrement formulé, si les corrections ne sont pas prises en compte, la ou les fonctionnalités concernées ne seront pas considérées comme terminées !
+Le formateur va procéder régulièrement à des revues de code et des tests UAT et faire des retours, avec plus ou moins de précisions, qu'il faudra obligatoirement traiter. Autrement formulé, si les corrections ne sont pas prises en compte, la ou les fonctionnalités concernées ne seront pas considérées comme terminées...
 
-Bien s'organiser quand des corrections sont demandées. Disuter dans l'équipe, comprendre la revue de code, estimer, assigner. Le secret de la réussite est dans l'auto organisation, la gestion des priorités.
+Bien s'organiser quand des corrections sont demandées. Discuter dans l'équipe, comprendre la revue de code, estimer grosso modo, assigner.
 
 ## Étapes à suivre
 1. Créer un repository "private" nommé "katathon-stickme" sur le compte GitHub d'un des membres du binôme, ajouter l'autre membre et le formateur en collaborateurs
@@ -44,3 +44,20 @@ Bien s'organiser quand des corrections sont demandées. Disuter dans l'équipe, 
 6. C'est parti mon kiki !
 
 ## Tips et contraintes
+La contrainte la plus forte est de s'organiser pour que chacun fasse un peu de tout (contexte de formation). Vous pouvez, grosso modo, avoir trois organisations :
+1. Spécialisée : chaque fonctionnalité est découpée en deux, la partie front et la partie back (API + DB), chaque membre s'occupe d'une des parties puis vous faites des rotations de fonctionnalité en fonctionnalité
+2. Fullstack : chaque membre prend en charge une fonctionnalité et implémente le front et le back. Plus difficile au démarrage car il faut initialiser les projets et on risque plus de se marcher un peu sur les pieds et d'avoir des conflits
+3. Mixte : spécialisée puis fullstack
+
+Le pair programming mais avec rotation est une autre approche.
+
+Penser à partager le code régulièrement sur GitHub.
+
+Bien s'entendre sur les différentes conventions (formatage, nommage...)
+
+### Contraintes techniques
+1. Mono repository
+2. Trois projets, un pour chaque couche, chacun sont .gitignore adapté
+3. Les scripts DDL et DML doivent pouvoir être rejoués
+4. Le script DDL définit toute le schéma, un seul script donc
+5. Le script DML doit insérer au moins 10 stickers, dans les règles de l'art...
