@@ -42,6 +42,7 @@ Bien s'organiser quand des corrections sont demandées. Discuter dans l'équipe,
 4. Faire valider les 3 premières étapes par le formateur avant d'aller plus loin. L'objectif principal est de partir avec une liste de taches bien identifées et bien réparties (ça ne compte pas comme joker...). Une fois la manière de travailler validée, à vous de jouer pour l'organisation de l'ensemble du katathon
 5. Procéder au wireframing de chaque écran (sauf pour la fonctionnalité "delete sticker"), versions desktop et mobile, avant de commencer toute implémentation. Ces wireframes doivent être validés par le formateur. Chaque membre de l'équipe doit participer, il y a 5 fonctionnalités à wireframer, le partage peut être de 2 vs 3 chacun. Le binôme discute pour un rendu cohérent mais chacun doit produire des wireframes. Libre choix du ou des outils. L'important est de pouvoir se projeter en tant que futur utilisateur. Communiquer les wireframes au formateur (peut importe comment) pour vérifier que les écrans correspondent bien après implémentation et valider les points bonus ! Cependant il est possible de proposer de nouvelles versions de wireframes... Pas de charte graphique imposée, pas de maquette statique attendue, uniquement les wireframes
 6. C'est parti mon kiki !
+7. Obligation de pusher le code en fin de matinées et de journées. Anticiper pour pusher du code qui compile
 
 ## Tips et contraintes
 ### Organisation
