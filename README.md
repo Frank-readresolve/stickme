@@ -44,6 +44,7 @@ Bien s'organiser quand des corrections sont demandées. Discuter dans l'équipe,
 6. C'est parti mon kiki !
 
 ## Tips et contraintes
+### Organisation
 La contrainte la plus forte est de s'organiser pour que chacun fasse un peu de tout (contexte de formation). Vous pouvez, grosso modo, avoir trois organisations :
 1. **Spécialisée** : chaque fonctionnalité est découpée en deux, la partie front et la partie back (API + DB), chaque membre s'occupe d'une des parties puis vous faites des rotations de fonctionnalité en fonctionnalité
 2. **Fullstack** : chaque membre prend en charge une fonctionnalité et implémente le front et le back. Plus difficile au démarrage car il faut initialiser les projets et on risque plus de se marcher un peu sur les pieds et d'avoir des conflits
@@ -60,5 +61,10 @@ Bien s'entendre sur les différentes conventions (formatage, nommage...)
 2. Trois projets, un pour chaque couche, chacun son .gitignore adapté
 3. Les scripts DDL et DML doivent pouvoir être rejoués
 4. Le script DDL définit tout le schéma, un seul script donc
-5. Le script DML doit insérer au moins 10 stickers, dans les règles de l'art...
+5. Le script DML doit insérer au moins 10 stickers, dans les règles de l'art... et avec des données "réalistes", vous pouvez vous inspirer du site redbubble.com
 6. Pas de code mort, ni de code commenté
+
+### Dépendances
+1. Utiliser Bootstrap "traditionnellement" en ajoutant les dépendances dans index.html, il existe un plugin Vue intéressant mais pas encore disponible pour Bootstrap 5
+2. Utiliser la dépendance dayjs pour le formatage des dates (npm)
+3. Utiliser la dépendance vuelidate pour la validation front (npm)
